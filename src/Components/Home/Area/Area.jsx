@@ -3,7 +3,7 @@ import AreaFoods from "./AreaFoods/AreaFoods";
 export default function Area() {
   const data = useLoaderData();
   return (
-    <div className=" w-11/12 lg:w-9/12 mx-auto py-24">
+    <div className=" w-11/12 lg:w-9/12 mx-auto pt-6 pb-24">
       <h1 className="mb-6 text-2xl font-bold mx-auto text-center bg-[#FFC107] rounded-lg p-4">
         Food Categories By Area
       </h1>

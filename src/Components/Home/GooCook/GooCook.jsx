@@ -8,7 +8,7 @@ export default function GooCook() {
   };
   const meal = data.meals[0];
   return (
-    <div className="mb-6  px-4 rounded-xl  w-11/12 lg:w-9/12 mx-auto py-10">
+    <div className="mb-12  px-4 rounded-xl  w-11/12 lg:w-9/12 mx-auto ">
       <div className="text-xl text-center justify-center font-bold space-y-6  gap-6 my-6">
         <h1 className="text-2xl font-bold mb-6 w-fit mx-auto text-center bg-[#ffc1076e] rounded-lg p-4">
           {meal.strMeal}
